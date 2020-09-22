@@ -3,18 +3,21 @@ package com.alura.servidor;
 import java.io.PrintStream;
 import java.net.Socket;
 import java.util.Scanner;
+import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 
 public class DistribuirTarefas implements Runnable {
 
     public final ServidorTarefas servidor;
     private final ExecutorService threadPool;
+    private final BlockingQueue<String> filaComandos;
     Socket socket;
 
-    public DistribuirTarefas(Socket socket, ServidorTarefas servidorTarefas, ExecutorService threadPool) {
+    public DistribuirTarefas(Socket socket, ServidorTarefas servidorTarefas, ExecutorService threadPool, BlockingQueue<String> filaComandos) {
         this.socket = socket;
         this.servidor = servidorTarefas;
         this.threadPool = threadPool;
+        this.filaComandos = filaComandos;
     }
 
 
@@ -39,6 +42,11 @@ public class DistribuirTarefas implements Runnable {
                         saidaCliente.println("Comando "+ commando +"recebido!");
                         ComandoC2 comandoC2 = new ComandoC2(saidaCliente);
                         threadPool.execute(comandoC2);
+                        break;
+                    }
+                    case "c3":{
+                        saidaCliente.println("Comando "+ commando +" adicionado na fila!");
+                        this.filaComandos.put(commando);
                         break;
                     }
                     case "fim":{
