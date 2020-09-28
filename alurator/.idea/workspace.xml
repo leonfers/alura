@@ -20,62 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02d6c821-6275-4468-81bc-b96035769772" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../alurator-playground/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alurator-playground/alurator-playground.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alurator-playground/src/br/com/alura/alurator/playground/reflexao/TesteInvocaMetodoComParametros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alurator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estoque-api/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../estoque-api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/.idea/alurator-playground.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../alurator-playground/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../alurator-playground/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/alurator-playground/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/alurator-playground/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/alurator-playground/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/alurator-playground/bin/br/com/alura/alurator/playground/controle/Controle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/alurator-playground/src/br/com/alura/alurator/playground/controle/Controle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/alurator-playground/src/br/com/alura/alurator/playground/controle/SubControle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../alurator-playground/alurator-playground/src/br/com/alura/alurator/playground/reflexao/TesteIntanciaObjetoCorretamente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/alurator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alurator/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alurator/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alurator/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alurator/bin/br/com/alura/alurator/Alurator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alurator/bin/br/com/alura/alurator/protocolo/QueryParamsBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alurator/bin/br/com/alura/alurator/protocolo/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alurator/src/br/com/alura/alurator/protocolo/QueryParamsBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alurator/src/br/com/alura/alurator/protocolo/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/com/alura/alurator/Alurator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator-playground/br/com/alura/alurator/playground/controle/Controle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator-playground/br/com/alura/alurator/playground/controle/SubControle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator-playground/br/com/alura/alurator/playground/reflexao/TesteIntanciaObjetoCorretamente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/.idea/alurator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/alurator/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/alurator/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/alurator/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/br/com/alura/alurator/Alurator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/br/com/alura/alurator/protocolo/QueryParamsBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/production/alurator/br/com/alura/alurator/protocolo/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/.idea/aws.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../alurator-playground/alurator-playground/src/br/com/alura/alurator/playground/controle/NomeTagXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/alurator/conversor/ConversorXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/alurator/conversor/anotacao/NomeTagXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alurator-playground/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../alurator-playground/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alurator-playground/alurator-playground/src/br/com/alura/alurator/playground/controle/Controle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../alurator-playground/alurator-playground/src/br/com/alura/alurator/playground/controle/Controle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alurator-playground/src/br/com/alura/alurator/playground/reflexao/TesteInvocaMetodoComParametros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/alura/alurator/Alurator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/alura/alurator/Alurator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/alura/alurator/protocolo/QueryParamsBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/alura/alurator/protocolo/QueryParamsBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/alura/alurator/protocolo/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/alura/alurator/protocolo/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/alura/alurator/reflexao/ManipuladorClasse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/alura/alurator/reflexao/ManipuladorClasse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/alura/alurator/reflexao/ManipuladorConstrutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/alura/alurator/reflexao/ManipuladorConstrutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/alura/alurator/reflexao/ManipuladorMetodo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/alura/alurator/reflexao/ManipuladorMetodo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/alura/alurator/reflexao/ManipuladorObjeto.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/alura/alurator/reflexao/ManipuladorObjeto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/alura/alurator/reflexao/Reflexao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/alura/alurator/reflexao/Reflexao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/alurator/Alurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/alurator/Alurator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/.idea/estoque-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/.idea/estoque-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/br/com/alura/estoque/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/br/com/alura/estoque/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/br/com/alura/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
@@ -84,22 +47,22 @@
       <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/bin/br/com/alura/estoque/dao/ProdutoDao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/bin/br/com/alura/estoque/dao/ProdutoDaoMock.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/bin/br/com/alura/estoque/modelo/Produto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/src/br/com/alura/estoque/controle/ProdutoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/src/br/com/alura/estoque/dao/ProdutoDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/src/br/com/alura/estoque/dao/ProdutoDaoMock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/src/br/com/alura/estoque/modelo/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/src/br/com/alura/estoque/controle/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/br/com/alura/controle/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/src/br/com/alura/estoque/dao/ProdutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/br/com/alura/estoque/dao/ProdutoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/src/br/com/alura/estoque/dao/ProdutoDaoMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/br/com/alura/estoque/dao/ProdutoDaoMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/estoque-api/src/br/com/alura/estoque/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/br/com/alura/estoque/modelo/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/estoque-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/estoque-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/estoque-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../alurator-playground/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/controle/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/controle/ProdutoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/dao/ProdutoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/dao/ProdutoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/dao/ProdutoDaoMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/dao/ProdutoDaoMock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/modelo/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/modelo/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/controle/ProdutoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/dao/ProdutoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/dao/ProdutoDaoMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/br/com/alura/estoque/modelo/Produto.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/estoque-api/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/estoque-api/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../estoque-api/target/production/estoque-api/estoque-api/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
@@ -108,6 +71,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -130,9 +100,27 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura.alurator.conversor" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -143,6 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601209377063</updated>
       <workItem from="1601209378496" duration="4528000" />
+      <workItem from="1601307653857" duration="2546000" />
     </task>
     <servers />
   </component>
@@ -159,15 +148,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1085" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1601210758420">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1085" y="204" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1601210758420" />
-    <state x="760" y="94" key="SettingsEditor" timestamp="1601209440126">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="1936" y="98" width="1024" height="852" key="SettingsEditor" timestamp="1601309066315">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="760" y="94" key="SettingsEditor/-1920.0.1920.1040/0.0.2560.1040@0.0.2560.1040" timestamp="1601209440126" />
+    <state x="1936" y="98" width="1024" height="852" key="SettingsEditor/1366.0.1920.1080/0.91.1366.768@1366.0.1920.1080" timestamp="1601309066315" />
   </component>
 </project>

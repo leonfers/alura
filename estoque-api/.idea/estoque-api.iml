@@ -7,10 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../alurator/target/production/alurator" />
+          <root url="file://$MODULE_DIR$/../alurator/bin" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
