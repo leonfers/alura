@@ -1,8 +1,10 @@
 package br.com.alura.alurator;
 
 import br.com.alura.alurator.conversor.ConversorXML;
+import br.com.alura.alurator.ioc.ContainerioC;
 import br.com.alura.alurator.protocolo.Request;
 import br.com.alura.alurator.reflexao.ManipuladorMetodo;
+import br.com.alura.alurator.reflexao.ManipuladorObjeto;
 import br.com.alura.alurator.reflexao.Reflexao;
 
 import java.lang.reflect.InvocationTargetException;
@@ -12,9 +14,11 @@ import java.util.Map;
 public class Alurator {
 	
 	private String pacoteBase;
+	private ContainerioC container;
 
 	public Alurator(String pacoteBase) {
 		this.pacoteBase = pacoteBase;
+		this.container = new ContainerioC();
 	}
 	
 	public Object executa(String url) {
@@ -32,10 +36,9 @@ public class Alurator {
 		String nomeControle = request.getNomeControle();
 		String nomeMetodo = request.getNomeMetodo();
 
+		Class<?> classeControle = new Reflexao().getClasse(pacoteBase + nomeControle );
 		
-		Object retorno = new Reflexao()
-			                .refleteClasse( pacoteBase + nomeControle )
-			                .criaInstancia()
+		Object retorno = new ManipuladorObjeto(container.getInstancia(classeControle))
 			                .getMetodo(nomeMetodo, queryParams)
 							.comTratamentoDeExcecoes(this::tratamento)
 			                .invoca();

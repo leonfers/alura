@@ -1,5 +1,7 @@
 package br.com.alura.alurator.conversor;
 
+import br.com.alura.alurator.conversor.anotacao.NomeTagXml;
+
 import java.lang.reflect.Field;
 import java.util.Collection;
 
@@ -20,16 +22,16 @@ public class ConversorXML {
                 xmlBuilder.append("</lista>");
                 return xmlBuilder.toString();
             } else {
-                String nomeClasse = classeObjeto.getSimpleName().toLowerCase();
-                xmlBuilder.append("<" + nomeClasse + ">");
+                NomeTagXml anotacaoClasse = classeObjeto.getDeclaredAnnotation(NomeTagXml.class);
+                xmlBuilder.append("<").append(anotacaoClasse != null ? anotacaoClasse.value() : classeObjeto.getSimpleName().toLowerCase()).append(">");
                 for (Field atributo : classeObjeto.getDeclaredFields()) {
                     atributo.setAccessible(true);
-                    String nomeAtributo = atributo.getName();
-                    xmlBuilder.append("<" + nomeAtributo + ">");
+                    NomeTagXml anotacaoAtributo = atributo.getDeclaredAnnotation(NomeTagXml.class);
+                    xmlBuilder.append("<").append(anotacaoAtributo != null ? anotacaoAtributo.value() : atributo).append(">");
                     xmlBuilder.append(atributo.get(objeto));
-                    xmlBuilder.append("</" + nomeAtributo + ">");
+                    xmlBuilder.append("</").append(anotacaoAtributo != null ? anotacaoAtributo.value() : atributo).append(">");
                 }
-                xmlBuilder.append("</" + nomeClasse + ">");
+                xmlBuilder.append("</" + (anotacaoClasse != null ? anotacaoClasse.value() : classeObjeto.getSimpleName().toLowerCase()) + ">");
                 return xmlBuilder.toString();
             }
         } catch (Exception e) {
